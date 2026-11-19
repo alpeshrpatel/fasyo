@@ -15,4 +15,4 @@ npm run dev
 npm run build
 ```
 
-The supplied anatomy artwork in `data/aasana/malasana/` is used directly. The muscle and fascia layers are educational color overlays from the source image, not medically verified segmentation.
+The supplied anatomy artwork in `data/aasana/malasana/` is used directly. Vite copies this directory into `dist/aasana/` during production builds. The muscle and fascia layers are educational color overlays from the source image, not medically verified segmentation.

@@ -28,7 +28,7 @@ export type Aasana = {
   fasciaRegions: Region[];
 };
 
-const assetPath = (id: string) => `/data/aasana/${id}/`;
+const assetPath = (id: string) => `/aasana/${id}/`;
 
 export const aasanas: Aasana[] = [
   {
